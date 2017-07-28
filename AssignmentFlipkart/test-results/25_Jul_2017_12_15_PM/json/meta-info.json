@@ -1,0 +1,13 @@
+{
+  "name": "AssignmentFlipkart.scenarios.addtocart.bdd",
+  "status": "unstable",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 0,
+  "skip": 2,
+  "startTime": 1500965158296,
+  "endTime": 1500965208747
+}

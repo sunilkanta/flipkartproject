@@ -1,0 +1,32 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpenFlipkartWebsite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.flipkart.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 8897
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open flipkart website",
+      "type": "TestStepPass",
+      "duration": 11119,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

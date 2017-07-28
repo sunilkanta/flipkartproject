@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open flipkart website</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then user verify homepage</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Flipkart homepage Verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com"</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When user selects 'Apple' from 'Electronics' section</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 10 seconds: Wait time out for sub catogory to be visible
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then user verify the page and click on 'iPad'</div><div  class="teststep"><span class="teststep-label">T </span>When user select the product with lowest price</div><div  class="teststep"><span class="teststep-label">T </span>And user tap on addtocart</div><div  class="teststep"><span class="teststep-label">T </span>Then user verify the product is added to cart</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="42055" started-at="2017-07-27T11:51:35Z" finished-at="2017-07-27T11:52:17Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.addtocart.bdd.AddAppleproduct to cart from flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="AddAppleproduct to cart from flipkart" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="42055" started-at="2017-07-27T11:51:35Z" finished-at="2017-07-27T11:52:17Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="AddAppleproduct to cart from flipkart" name="setupSuit" is-config="true" duration-ms="16" started-at="2017-07-27T17:21:35Z" finished-at="2017-07-27T17:21:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5f058f00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="AddAppleproduct to cart from flipkart" name="setupTest" is-config="true" duration-ms="0" started-at="2017-07-27T17:21:35Z" finished-at="2017-07-27T17:21:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5f058f00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="AddAppleproduct to cart from flipkart" name="setup" is-config="true" duration-ms="0" started-at="2017-07-27T17:21:35Z" finished-at="2017-07-27T17:21:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5f058f00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="AddAppleproduct to cart from flipkart" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-07-27T17:21:35Z" finished-at="2017-07-27T17:21:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5f058f00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="AddAppleproduct to cart from flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="AddAppleproduct to cart from flipkart" name="AddAppleproduct to cart from flipkart" duration-ms="31853" started-at="2017-07-27T17:21:35Z" description="Sample Test Scenario" finished-at="2017-07-27T17:22:07Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 10 seconds: Wait time out for sub catogory to be visible
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds: Wait time out for sub catogory to be visible
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at .When user selects 'Apple' from 'Electronics' section(scenarios/addtocart.bdd:9)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:478)
+	at com.assignmentflipkart.pages.Homepageflipkart.selectCatogory(Homepageflipkart.java:52)
+	at com.assignmentflipkart.StepsBackLog.selectproduct_aroundBody4(StepsBackLog.java:47)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.assignmentflipkart.StepsBackLog.selectproduct(StepsBackLog.java:45)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open flipkart website</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then user verify homepage</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Flipkart homepage Verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com"</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When user selects 'Apple' from 'Electronics' section</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 10 seconds: Wait time out for sub catogory to be visible
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then user verify the page and click on 'iPad'</div><div  class="teststep"><span class="teststep-label">T </span>When user select the product with lowest price</div><div  class="teststep"><span class="teststep-label">T </span>And user tap on addtocart</div><div  class="teststep"><span class="teststep-label">T </span>Then user verify the product is added to cart</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddAppleproduct to cart from flipkart -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="AddAppleproduct to cart from flipkart" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-27T17:22:17Z" finished-at="2017-07-27T17:22:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5f058f00]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddAppleproduct to cart from flipkart status=FAILURE method=scenarios.addtocart.bdd.AddAppleproduct to cart from flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open flipkart website</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then user verify homepage</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Flipkart homepage Verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com"</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When user selects 'Apple' from 'Electronics' section</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 10 seconds: Wait time out for sub catogory to be visible
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then user verify the page and click on 'iPad'</div><div  class="teststep"><span class="teststep-label">T </span>When user select the product with lowest price</div><div  class="teststep"><span class="teststep-label">T </span>And user tap on addtocart</div><div  class="teststep"><span class="teststep-label">T </span>Then user verify the product is added to cart</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="AddAppleproduct to cart from flipkart" name="afterClass" is-config="true" duration-ms="0" started-at="2017-07-27T17:22:17Z" finished-at="2017-07-27T17:22:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5f058f00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="AddAppleproduct to cart from flipkart" name="afterTest" is-config="true" duration-ms="38" started-at="2017-07-27T17:22:17Z" finished-at="2017-07-27T17:22:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5f058f00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

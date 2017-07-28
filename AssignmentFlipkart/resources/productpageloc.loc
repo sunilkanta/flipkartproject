@@ -1,0 +1,3 @@
+pricelwtohigh.lnk.productpage = {\"locator\":\"xpath=//li[@class='_2Ylh8t _3q0Dpv']/following-sibling::li[1]\",\"desc\":\"product price low to hgh\"}
+price.lst.productpage = {\"locator\":\"xpath=//div[@class='_1vC4OE _2rQ-NK']\",\"desc\":\"product price\"}
+pricehightolow.lnk.productpage = {\"locator\":\"xpath=//ul[@class='_3fPYHw']/li[3]\",\"desc\":\"product price high to low\"}

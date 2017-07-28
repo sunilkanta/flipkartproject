@@ -1,0 +1,84 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "catagoryname": "Electronics",
+          "subcatagory": "Samsung"
+        }
+      ],
+      "metaData": {
+        "description": "Sample Test Scenario WITH XML",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "mobile",
+        "lineNo": 19.0,
+        "name": "AddAppleproduct to cart from flipkart with xml data",
+        "referece": "scenarios/addtocart.bdd",
+        "sign": "scenarios.addtocart.bdd.AddAppleproduct to cart from flipkart with xml data( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1500966730420,
+      "duration": 31394,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "catagoryname": "Electronics",
+          "subcatagory": "Lenovo"
+        }
+      ],
+      "metaData": {
+        "description": "Sample Test Scenario WITH XML",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "mobile",
+        "lineNo": 19.0,
+        "name": "AddAppleproduct to cart from flipkart with xml data",
+        "referece": "scenarios/addtocart.bdd",
+        "resultFileName": "AddAppleproduct to cart from flipkart with xml dataRWhshkNJkP",
+        "sign": "scenarios.addtocart.bdd.AddAppleproduct to cart from flipkart with xml data( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1500966771920,
+      "duration": 25769,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "catagoryname": "Electronics",
+          "subcatagory": "Mi"
+        }
+      ],
+      "metaData": {
+        "description": "Sample Test Scenario WITH XML",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "mobile",
+        "lineNo": 19,
+        "name": "AddAppleproduct to cart from flipkart with xml data",
+        "referece": "scenarios/addtocart.bdd",
+        "resultFileName": "AddAppleproduct to cart from flipkart with xml dataQyBJbIfIMB",
+        "sign": "scenarios.addtocart.bdd.AddAppleproduct to cart from flipkart with xml data( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1500966807825,
+      "duration": 25370,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

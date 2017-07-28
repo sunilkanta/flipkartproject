@@ -1,0 +1,259 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpenFlipkartWebsite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.flipkart.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4296
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifyHomepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More",
+          "subLogs": [],
+          "duration": 14
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectproduct",
+      "args": [
+        "[mobile.subcatagory, ${catagoryname}]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=a[title='Electronics'], using=css selector}"
+          ],
+          "result": "id: 0.31592694256512965-1",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.31592694256512965-1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='mobile.subcatagory'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='mobile.subcatagory'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='mobile.subcatagory'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='mobile.subcatagory'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='mobile.subcatagory'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='mobile.subcatagory'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='mobile.subcatagory'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='mobile.subcatagory'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='mobile.subcatagory'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='mobile.subcatagory'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='mobile.subcatagory'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "When user select the product with highest price",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And  user tap on addtocart",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user verify the product is added to cart",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open flipkart website",
+      "type": "TestStepPass",
+      "duration": 6022,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify homepage",
+      "type": "TestStepPass",
+      "duration": 10139,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Flipkart homepage Verification\nExpected: a string containing \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"\n     Actual: was \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects 'mobile.subcatagory' from Electronics section",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 10356,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 10 seconds: Wait time out for sub catogory to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user select the product with highest price",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And  user tap on addtocart",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify the product is added to cart",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 10 seconds: Wait time out for sub catogory to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: unknown\r\n\tat .When user selects 'mobile.subcatagory' from ${catagoryname} section(scenarios/addtocart.bdd:25)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:478)\r\n\tat com.assignmentflipkart.pages.Homepageflipkart.selectCatogory(Homepageflipkart.java:42)\r\n\tat com.assignmentflipkart.StepsBackLog.selectproduct_aroundBody4(StepsBackLog.java:44)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.assignmentflipkart.StepsBackLog.selectproduct(StepsBackLog.java:42)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:84)\r\n"
+}

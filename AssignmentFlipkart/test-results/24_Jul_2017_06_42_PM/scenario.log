@@ -1,0 +1,14 @@
+18:42:27 scenario.file.loc[Ljava.lang.String;@5e57643e
+18:42:27 loading BDD file: scenarios/suite1.bdd
+18:42:27 total test found: 1
+18:42:27 
+
+Executing scenario: SampleTest - Sample Test Scenario
+18:42:27 pkg: com.qmetry.qaf.automation.step
+18:42:27 pkg: com.assignmentflipkart
+18:42:27 Found duplicate step to load [] with [lower] prority then []
+18:42:27 Invoking Teststep: Given user open flipkart website
+18:42:34 Completed Teststep: Given user open flipkart website
+18:42:34 Invoking Teststep: Then user verify homepage
+18:42:45 Completed Teststep: Then user verify homepage
+18:42:45 Competed scenario: SampleTest with status SUCESS

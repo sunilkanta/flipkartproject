@@ -1,0 +1,79 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpenFlipkartWebsite",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user verify homepage",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user selects 'Apple' from 'Electronics' section",
+      "args": [
+        "[Apple, Electronics]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user verify the page and click on 'iPad'",
+      "args": [
+        "[iPad]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open flipkart website",
+      "type": "TestStepFail",
+      "duration": 512,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.\nFailed to connect to binary FirefoxBinary(C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe) on port 7055; process output follows: \nnull\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: FirefoxDriver",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then user verify homepage",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user selects 'Apple' from 'Electronics' section",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify the page and click on 'iPad'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.core.AutomationError: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.\nFailed to connect to binary FirefoxBinary(C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe) on port 7055; process output follows: \nnull\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: FirefoxDriver\r\n\tat .Given user open flipkart website(scenarios/addtocart.bdd:7)\r\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:129)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:239)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:234)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:417)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$5(UiDriverFactory.java:405)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:227)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:511)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:410)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:198)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:1)\r\n\tat com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:86)\r\n\tat com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:93)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:62)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:58)\r\n\tat com.assignmentflipkart.pages.Homepageflipkart.<init>(Homepageflipkart.java:15)\r\n\tat com.assignmentflipkart.StepsBackLog.<init>(StepsBackLog.java:16)\r\n\tat java.lang.Class.newInstance(Unknown Source)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.getClassInstance(JavaStep.java:311)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.getStepProvider(JavaStep.java:190)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

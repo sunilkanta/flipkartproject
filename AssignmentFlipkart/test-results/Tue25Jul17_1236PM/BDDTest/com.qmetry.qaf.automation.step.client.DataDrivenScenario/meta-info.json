@@ -1,0 +1,30 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "catagoryname": "Electronics",
+          "subcatagory": "Samsung"
+        }
+      ],
+      "metaData": {
+        "description": "Sample Test Scenario WITH XML",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "mobile",
+        "lineNo": 19,
+        "name": "AddAppleproduct to cart from flipkart with xml data",
+        "referece": "scenarios/addtocart.bdd",
+        "sign": "scenarios.addtocart.bdd.AddAppleproduct to cart from flipkart with xml data( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1500966404486,
+      "duration": 21309,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

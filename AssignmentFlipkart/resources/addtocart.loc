@@ -1,0 +1,3 @@
+addtocrt.btn.addtocartpage = {\"locator\":\"css=_2AkmmA _2Npkh4 _2MWPVK\",\"desc\":\"addtocart button\"}
+remove.btn.addtocart = {\"locator\":\"xpath=//div[@class='_2xVwyr']/span[text()='Remove']\",\"desc\":\"remove button\"}
+productname.lbl.addtocartpage = {\"locator\":\"xpath=//a[@class='_325-ji _3ROAwx']\",\"desc\":\"product name\"}

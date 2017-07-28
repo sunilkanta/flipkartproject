@@ -1,0 +1,51 @@
+12:15:58 scenario.file.loc[Ljava.lang.String;@5bfa9431
+12:15:58 loading BDD file: scenarios/addtocart.bdd
+12:15:58 total test found: 2
+12:15:58 
+
+Executing scenario: AddAppleproduct to cart from flipkart - Sample Test Scenario
+12:15:58 pkg: com.qmetry.qaf.automation.step
+12:15:58 pkg: com.assignmentflipkart
+12:15:58 Found duplicate step to load [] with [lower] prority then []
+12:15:58 Invoking Teststep: Given user open flipkart website
+12:16:07 Completed Teststep: Given user open flipkart website
+12:16:07 Invoking Teststep: Then user verify homepage
+12:16:17 Completed Teststep: Then user verify homepage
+12:16:17 Invoking Teststep: When user selects 'Apple' from 'Electronics' section with arguments: [Apple, Electronics]
+12:16:18 Completed Teststep: When user selects 'Apple' from 'Electronics' section with arguments: [Apple, Electronics]
+12:16:18 Invoking Teststep: Then user verify the page and click on 'iPad' with arguments: [iPad]
+12:16:32 Completed Teststep: Then user verify the page and click on 'iPad' with arguments: [iPad]
+12:16:32 Invoking Teststep: When user select the product with lowest price
+12:16:33 Completed Teststep: When user select the product with lowest price
+12:16:33 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="user tap on addtocart")
+public void userTapOnAddtocart(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+12:16:33 Competed scenario: AddAppleproduct to cart from flipkart with status FAILURE
+12:16:33 
+
+Executing scenario: AddAppleproduct to cart from flipkart with xml data - Sample Test Scenario
+12:16:33 Test Data{catagoryname=Electronics, subcatagory=Samsung}
+12:16:33 Invoking Teststep: Given user open flipkart website
+12:16:35 Completed Teststep: Given user open flipkart website
+12:16:35 Invoking Teststep: Then user verify homepage
+12:16:46 Completed Teststep: Then user verify homepage
+12:16:46 Invoking Teststep: When user selects ${subcatagory} from ${catagoryname} section with arguments: [${subcatagory}, ${catagoryname}]
+12:16:47 Completed Teststep: When user selects Samsung from Electronics section with arguments: [${subcatagory}, ${catagoryname}]
+12:16:47 Invoking Teststep: When user select the product with highest price
+12:16:48 Completed Teststep: When user select the product with highest price
+12:16:48 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="user tap on addtocart")
+public void userTapOnAddtocart(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+12:16:48 Competed scenario: AddAppleproduct to cart from flipkart with xml data with status FAILURE

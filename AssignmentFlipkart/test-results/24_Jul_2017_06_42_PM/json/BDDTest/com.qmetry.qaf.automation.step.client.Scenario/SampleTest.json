@@ -1,0 +1,67 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpenFlipkartWebsite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.flipkart.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4646
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifyHomepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More",
+          "subLogs": [],
+          "duration": 12
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open flipkart website",
+      "type": "TestStepPass",
+      "duration": 6924,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify homepage",
+      "type": "TestStepPass",
+      "duration": 10175,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "FlipKArtHpome pGAe Verification\nExpected: a string containing \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"\n     Actual: was \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

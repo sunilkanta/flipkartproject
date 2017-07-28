@@ -1,0 +1,3 @@
+homepage.lnk.catagoryname = {\"locator\":\"css=a[title='%s']\",\"desc\":\"menu home page locator\"}
+homepage.lnk.subcatagory = {\"locator\":\"xpath=//span[text()='%s']\",\"desc\":\"sub catogory\"}
+homepage.btn.popup = {\"locator\":\"css=button._29YdH8\"}

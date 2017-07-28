@@ -1,0 +1,484 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpenFlipkartWebsite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.flipkart.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 16662
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifyHomepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More",
+          "subLogs": [],
+          "duration": 12
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectproduct",
+      "args": [
+        "[Apple, Electronics]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=a[title='Electronics'], using=css selector}"
+          ],
+          "result": "id: 0.22870879825156498-1",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.22870879825156498-1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.22870879825156498-2]",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.22870879825156498-2",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.22870879825156498-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.22870879825156498-2]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.22870879825156498-2",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.22870879825156498-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.22870879825156498-2]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.22870879825156498-2",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.22870879825156498-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.22870879825156498-2]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.22870879825156498-2",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.22870879825156498-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.22870879825156498-2]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.22870879825156498-2",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.22870879825156498-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 3
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.22870879825156498-2]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.22870879825156498-2",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.22870879825156498-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.22870879825156498-2]",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.22870879825156498-2",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.22870879825156498-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.22870879825156498-2]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.22870879825156498-2",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.22870879825156498-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.22870879825156498-2]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.22870879825156498-2",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.22870879825156498-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.22870879825156498-2]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.22870879825156498-2",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.22870879825156498-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.22870879825156498-2]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.22870879825156498-2",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.22870879825156498-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 15
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user verify the page and click on 'iPad'",
+      "args": [
+        "[iPad]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user select the product with lowest price",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user tap on addtocart",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user verify the product is added to cart",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open flipkart website",
+      "type": "TestStepPass",
+      "duration": 19195,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify homepage",
+      "type": "TestStepPass",
+      "duration": 10102,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Flipkart homepage Verification\nExpected: a string containing \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"\n     Actual: was \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects 'Apple' from 'Electronics' section",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 10860,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 10 seconds: Wait time out for sub catogory to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then user verify the page and click on 'iPad'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user select the product with lowest price",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user tap on addtocart",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify the product is added to cart",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 10 seconds: Wait time out for sub catogory to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: unknown\r\n\tat .When user selects 'Apple' from 'Electronics' section(scenarios/addtocart.bdd:9)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:478)\r\n\tat com.assignmentflipkart.pages.Homepageflipkart.selectCatogory(Homepageflipkart.java:42)\r\n\tat com.assignmentflipkart.StepsBackLog.selectproduct_aroundBody4(StepsBackLog.java:47)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.assignmentflipkart.StepsBackLog.selectproduct(StepsBackLog.java:45)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

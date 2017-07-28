@@ -1,0 +1,30 @@
+
+
+SCENARIO: AddAppleproduct to cart from flipkart
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+
+	Given user open flipkart website
+	Then user verify homepage
+	When user selects 'Apple' from 'Electronics' section
+	Then user verify the page and click on 'iPad'
+	When user select the product with lowest price
+	And user tap on addtocart
+	Then user verify the product is added to cart
+	
+
+END
+#
+#SCENARIO: AddAppleproduct to cart from flipkart with xml data
+#META-DATA: {"description":"Sample Test Scenario WITH XML","groups":["SMOKE"],"key":mobile}
+#	
+#
+#	Given user open flipkart website
+#	Then user verify homepage
+#	When user selects ${subcatagory} from ${catagoryname} section
+#	When user select the product with highest price
+#	And user tap on addtocart
+#	Then user verify the product is added to cart
+#	
+#
+#END

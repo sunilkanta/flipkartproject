@@ -1,0 +1,24 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Sample Test Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 3,
+        "name": "AddAppleproduct to cart from flipkart",
+        "referece": "scenarios/addtocart.bdd",
+        "sign": "scenarios.addtocart.bdd.AddAppleproduct to cart from flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1500965158337,
+      "duration": 35329,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

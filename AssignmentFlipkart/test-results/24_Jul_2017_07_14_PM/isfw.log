@@ -1,0 +1,310 @@
+[main] 19:14:40,339 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 19:14:40,343 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 19:14:40,343 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 19:14:40,344 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 19:14:40,344 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 19:14:40,443 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=11, qaf-Version=2.1, qaf-Build-Time=17-Apr-2017 02:20:41}
+[main] 19:14:40,451 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\MynewWorkspace\AssignmentFlipkart\resources. Found property files to load: 1
+[main] 19:14:40,458 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 19:14:40,458 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 19:14:40,459 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 19:14:40,459 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 19:14:40,459 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 19:14:40,459 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 19:14:40,459 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 19:14:40,459 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 19:14:40,459 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 19:14:40,459 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 19:14:40,459 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 19:14:40,459 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 19:14:40,459 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 19:14:40,462 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 19:14:40,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 19:14:40,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 19:14:40,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 19:14:40,463 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 19:14:40,464 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 19:14:40,464 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 19:14:40,464 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 19:14:40,468 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\MynewWorkspace\AssignmentFlipkart\resources. Found property files to load: 0
+[main] 19:14:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 19:14:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 19:14:40,474 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 19:14:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 19:14:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 19:14:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 19:14:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 19:14:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 19:14:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 19:14:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 19:14:40,475 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 19:14:40,476 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 19:14:40,476 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 19:14:40,476 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 19:14:40,476 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 19:14:40,476 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 19:14:40,476 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 19:14:40,476 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 19:14:40,476 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 19:14:40,476 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 19:14:40,476 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 19:14:40,619 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 19:14:40,624 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 19:14:40,624 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 19:14:40,626 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 19:14:40,627 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.ui is test:false
+[main] 19:14:40,627 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 19:14:40,628 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 19:14:40,630 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 19:14:40,631 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.ui is test:false
+[main] 19:14:40,631 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 19:14:40,635 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 19:14:40,636 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 19:14:40,636 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 19:14:40,650 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 19:14:40,650 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: SampleTest
+[main] 19:14:40,813 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] Initializing Driver...browser_str:chromeDriver,base_url:https://www.flipkart.com,sel_server:localhost,port:4444
+[main] 19:14:40,829 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] Driver: chromeDriver
+[main] 19:14:40,881 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [resources/chromedriver.exe] ignored! It is overriden with System provided value: [D:\MynewWorkspace\AssignmentFlipkart\resources\chromedriver.exe]
+[main] 19:14:40,888 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [resources/chromedriver.exe] ignored! It is overriden with System provided value: [D:\MynewWorkspace\AssignmentFlipkart\resources\chromedriver.exe]
+[Forwarding newSession on session null to remote] 19:14:41,694 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding newSession on session null to remote] 19:14:41,700 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding newSession on session null to remote] 19:14:41,701 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:19234][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding newSession on session null to remote] 19:14:41,711 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:19234][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding newSession on session null to remote] 19:14:41,712 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:19234
+[Forwarding newSession on session null to remote] 19:14:41,713 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:19234
+[Forwarding newSession on session null to remote] 19:14:41,713 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:55053<->127.0.0.1:19234
+[Forwarding newSession on session null to remote] 19:14:41,714 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding newSession on session null to remote] 19:14:41,714 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session HTTP/1.1
+[Forwarding newSession on session null to remote] 19:14:41,714 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 19:14:41,714 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 19:14:41,715 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session HTTP/1.1
+[Forwarding newSession on session null to remote] 19:14:41,715 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 19:14:41,715 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 153
+[Forwarding newSession on session null to remote] 19:14:41,715 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:19234
+[Forwarding newSession on session null to remote] 19:14:41,715 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding newSession on session null to remote] 19:14:41,715 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding newSession on session null to remote] 19:14:41,715 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding newSession on session null to remote] 19:14:41,715 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:41,716 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:41,716 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 153[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:41,716 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:19234[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:41,716 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:41,716 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:41,716 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:41,716 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:41,716 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","takesScreenshot":true,"javascriptEnabled":true,"version":"","platform":"ANY","cssSelectorsEnabled":true}}"
+[Forwarding newSession on session null to remote] 19:14:43,098 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:43,098 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:786[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:43,098 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:43,098 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection:close[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:43,098 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding newSession on session null to remote] 19:14:43,098 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"bb8da8ba8cc5008c4a115fee01c522b8","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)","userDataDir":"C:\\Users\\SUNILK~1.DAS\\AppData\\Local\\Temp\\scoped_dir3604_31315"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"59.0.3071.115","webStorageEnabled":true}}"
+[Forwarding newSession on session null to remote] 19:14:43,100 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding newSession on session null to remote] 19:14:43,100 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:786
+[Forwarding newSession on session null to remote] 19:14:43,100 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 19:14:43,100 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection:close
+[Forwarding newSession on session null to remote] 19:14:43,106 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Close connection
+[Forwarding newSession on session null to remote] 19:14:43,106 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding newSession on session null to remote] 19:14:43,106 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:19234][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 19:14:43,117 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing get parameters: {"url":"https://www.flipkart.com"}
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,118 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,118 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,118 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:19234][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,118 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 1][route: {}->http://localhost:19234][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,118 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:19234
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,118 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:19234
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:55061<->127.0.0.1:19234
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-1: set socket timeout to 10800000
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/bb8da8ba8cc5008c4a115fee01c522b8/url HTTP/1.1
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.headers] http-outgoing-1 >> POST /session/bb8da8ba8cc5008c4a115fee01c522b8/url HTTP/1.1
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.headers] http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.headers] http-outgoing-1 >> Content-Length: 34
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.headers] http-outgoing-1 >> Host: localhost:19234
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.headers] http-outgoing-1 >> Connection: Keep-Alive
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.headers] http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.headers] http-outgoing-1 >> Accept-Encoding: gzip,deflate
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.wire] http-outgoing-1 >> "POST /session/bb8da8ba8cc5008c4a115fee01c522b8/url HTTP/1.1[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Content-Length: 34[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Host: localhost:19234[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.wire] http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.wire] http-outgoing-1 >> "[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:43,119 DEBUG [org.apache.http.wire] http-outgoing-1 >> "{"url":"https://www.flipkart.com"}"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,370 DEBUG [org.apache.http.wire] http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,370 DEBUG [org.apache.http.wire] http-outgoing-1 << "Content-Length:72[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,370 DEBUG [org.apache.http.wire] http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,370 DEBUG [org.apache.http.wire] http-outgoing-1 << "Connection:close[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,370 DEBUG [org.apache.http.wire] http-outgoing-1 << "[\r][\n]"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,370 DEBUG [org.apache.http.wire] http-outgoing-1 << "{"sessionId":"bb8da8ba8cc5008c4a115fee01c522b8","status":0,"value":null}"
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,370 DEBUG [org.apache.http.headers] http-outgoing-1 << HTTP/1.1 200 OK
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,370 DEBUG [org.apache.http.headers] http-outgoing-1 << Content-Length:72
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,370 DEBUG [org.apache.http.headers] http-outgoing-1 << Content-Type:application/json; charset=utf-8
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,370 DEBUG [org.apache.http.headers] http-outgoing-1 << Connection:close
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,371 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-1: Close connection
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,371 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding get on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,371 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 1][route: {}->http://localhost:19234][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 19:14:51,375 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: get[ param-1: {url=https://www.flipkart.com}] Result: null
+[main] 19:14:51,376 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing maximizeWindow parameters: {"windowHandle":"current"}
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,377 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,377 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,377 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:19234][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 2][route: {}->http://localhost:19234][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:19234
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:19234
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:55106<->127.0.0.1:19234
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-2: set socket timeout to 10800000
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/bb8da8ba8cc5008c4a115fee01c522b8/window/current/maximize HTTP/1.1
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.headers] http-outgoing-2 >> POST /session/bb8da8ba8cc5008c4a115fee01c522b8/window/current/maximize HTTP/1.1
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.headers] http-outgoing-2 >> Content-Type: application/json; charset=utf-8
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.headers] http-outgoing-2 >> Content-Length: 26
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.headers] http-outgoing-2 >> Host: localhost:19234
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.headers] http-outgoing-2 >> Connection: Keep-Alive
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.headers] http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,378 DEBUG [org.apache.http.headers] http-outgoing-2 >> Accept-Encoding: gzip,deflate
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,379 DEBUG [org.apache.http.wire] http-outgoing-2 >> "POST /session/bb8da8ba8cc5008c4a115fee01c522b8/window/current/maximize HTTP/1.1[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,379 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,379 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Content-Length: 26[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,379 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Host: localhost:19234[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,379 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,379 DEBUG [org.apache.http.wire] http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,379 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,379 DEBUG [org.apache.http.wire] http-outgoing-2 >> "[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:14:51,379 DEBUG [org.apache.http.wire] http-outgoing-2 >> "{"windowHandle":"current"}"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,446 DEBUG [org.apache.http.wire] http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,446 DEBUG [org.apache.http.wire] http-outgoing-2 << "Content-Length:421[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,446 DEBUG [org.apache.http.wire] http-outgoing-2 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,446 DEBUG [org.apache.http.wire] http-outgoing-2 << "Connection:close[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,446 DEBUG [org.apache.http.wire] http-outgoing-2 << "[\r][\n]"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,446 DEBUG [org.apache.http.wire] http-outgoing-2 << "{"sessionId":"bb8da8ba8cc5008c4a115fee01c522b8","status":13,"value":{"message":"unknown error: cannot get automation extension\nfrom unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html\n  (Session info: chrome=59.0.3071.115)\n  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.2.9200 x86_64)"}}"
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,446 DEBUG [org.apache.http.headers] http-outgoing-2 << HTTP/1.1 200 OK
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,446 DEBUG [org.apache.http.headers] http-outgoing-2 << Content-Length:421
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,446 DEBUG [org.apache.http.headers] http-outgoing-2 << Content-Type:application/json; charset=utf-8
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,446 DEBUG [org.apache.http.headers] http-outgoing-2 << Connection:close
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,446 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-2: Close connection
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,447 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding maximizeWindow on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,447 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 2][route: {}->http://localhost:19234][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 19:15:01,460 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: maximizeWindow[ param-1: {windowHandle=current}] Result: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\SUNILK~1.DAS\AppData\Local\Temp\scoped_dir3604_31315}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb8da8ba8cc5008c4a115fee01c522b8
+[main] 19:15:01,498 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: SampleTest - com.qmetry.qaf.automation.step.client is test:true
+[main] 19:15:01,501 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing screenshot parameters: {}
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,502 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,502 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,502 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:19234][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,502 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 3][route: {}->http://localhost:19234][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,502 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:19234
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,504 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:19234
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,504 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:55114<->127.0.0.1:19234
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,504 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-3: set socket timeout to 10800000
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,504 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request GET /session/bb8da8ba8cc5008c4a115fee01c522b8/screenshot HTTP/1.1
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,504 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.headers] http-outgoing-3 >> GET /session/bb8da8ba8cc5008c4a115fee01c522b8/screenshot HTTP/1.1
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.headers] http-outgoing-3 >> Cache-Control: no-cache
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.headers] http-outgoing-3 >> Host: localhost:19234
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.headers] http-outgoing-3 >> Connection: Keep-Alive
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.headers] http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.headers] http-outgoing-3 >> Accept-Encoding: gzip,deflate
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.wire] http-outgoing-3 >> "GET /session/bb8da8ba8cc5008c4a115fee01c522b8/screenshot HTTP/1.1[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.wire] http-outgoing-3 >> "Cache-Control: no-cache[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.wire] http-outgoing-3 >> "Host: localhost:19234[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.wire] http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.wire] http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.wire] http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:01,505 DEBUG [org.apache.http.wire] http-outgoing-3 >> "[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,522 DEBUG [org.apache.http.wire] http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,522 DEBUG [org.apache.http.wire] http-outgoing-3 << "Content-Length:421[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,523 DEBUG [org.apache.http.wire] http-outgoing-3 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,523 DEBUG [org.apache.http.wire] http-outgoing-3 << "Connection:close[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,523 DEBUG [org.apache.http.wire] http-outgoing-3 << "[\r][\n]"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,523 DEBUG [org.apache.http.wire] http-outgoing-3 << "{"sessionId":"bb8da8ba8cc5008c4a115fee01c522b8","status":13,"value":{"message":"unknown error: cannot get automation extension\nfrom unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html\n  (Session info: chrome=59.0.3071.115)\n  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.2.9200 x86_64)"}}"
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,523 DEBUG [org.apache.http.headers] http-outgoing-3 << HTTP/1.1 200 OK
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,523 DEBUG [org.apache.http.headers] http-outgoing-3 << Content-Length:421
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,523 DEBUG [org.apache.http.headers] http-outgoing-3 << Content-Type:application/json; charset=utf-8
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,524 DEBUG [org.apache.http.headers] http-outgoing-3 << Connection:close
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,524 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-3: Close connection
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,525 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding screenshot on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,525 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 3][route: {}->http://localhost:19234][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 19:15:11,531 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: screenshot[ param-1: {}] Result: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\SUNILK~1.DAS\AppData\Local\Temp\scoped_dir3604_31315}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb8da8ba8cc5008c4a115fee01c522b8
+[main] 19:15:11,542 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 19:15:11,576 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: fail groups: {description=Sample Test Scenario, groups=[Ljava.lang.String;@61fe30, lineNo=3, name=SampleTest, referece=scenarios/suite1.bdd, sign=scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]}
+[main] 19:15:11,580 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 19:15:11,581 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 19:15:11,581 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 19:15:11,581 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterClass
+[main] 19:15:11,581 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterClass - com.qmetry.qaf.automation.ui is test:false
+[main] 19:15:11,581 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 19:15:11,583 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterTest
+[main] 19:15:11,583 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing quit parameters: {}
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,585 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,585 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,585 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:19234][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,585 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 4][route: {}->http://localhost:19234][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,585 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:19234
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,587 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:19234
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:55118<->127.0.0.1:19234
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-4: set socket timeout to 10800000
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request DELETE /session/bb8da8ba8cc5008c4a115fee01c522b8 HTTP/1.1
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.headers] http-outgoing-4 >> DELETE /session/bb8da8ba8cc5008c4a115fee01c522b8 HTTP/1.1
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.headers] http-outgoing-4 >> Host: localhost:19234
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.headers] http-outgoing-4 >> Connection: Keep-Alive
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.headers] http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.headers] http-outgoing-4 >> Accept-Encoding: gzip,deflate
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.wire] http-outgoing-4 >> "DELETE /session/bb8da8ba8cc5008c4a115fee01c522b8 HTTP/1.1[\r][\n]"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.wire] http-outgoing-4 >> "Host: localhost:19234[\r][\n]"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.wire] http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.wire] http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.wire] http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,588 DEBUG [org.apache.http.wire] http-outgoing-4 >> "[\r][\n]"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,607 DEBUG [org.apache.http.wire] http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,607 DEBUG [org.apache.http.wire] http-outgoing-4 << "Content-Length:72[\r][\n]"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,607 DEBUG [org.apache.http.wire] http-outgoing-4 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,607 DEBUG [org.apache.http.wire] http-outgoing-4 << "Connection:close[\r][\n]"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,607 DEBUG [org.apache.http.wire] http-outgoing-4 << "[\r][\n]"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,607 DEBUG [org.apache.http.wire] http-outgoing-4 << "{"sessionId":"bb8da8ba8cc5008c4a115fee01c522b8","status":0,"value":null}"
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,607 DEBUG [org.apache.http.headers] http-outgoing-4 << HTTP/1.1 200 OK
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,607 DEBUG [org.apache.http.headers] http-outgoing-4 << Content-Length:72
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,607 DEBUG [org.apache.http.headers] http-outgoing-4 << Content-Type:application/json; charset=utf-8
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,607 DEBUG [org.apache.http.headers] http-outgoing-4 << Connection:close
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,607 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-4: Close connection
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,608 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,608 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 4][route: {}->http://localhost:19234][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding quit on session bb8da8ba8cc5008c4a115fee01c522b8 to remote] 19:15:11,608 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Closing connections idle longer than 0 SECONDS
+[main] 19:15:11,609 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: quit[ param-1: {}] Result: null
+[main] 19:15:11,609 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] UI-driver tear down complete...
+[main] 19:15:11,609 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterTest - com.qmetry.qaf.automation.ui is test:false
+[main] 19:15:11,609 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 19:15:11,666 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 19:15:11,676 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterSuit
+[main] 19:15:11,677 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 19:15:11,677 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 19:15:11,679 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 19:15:11,681 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
+[Thread-0] 19:15:11,759 INFO  [com.qmetry.qaf.automation.ui.webdriver.ChromeDriverHelper] Stopping chrome driver service.
+[Thread-0] 19:15:12,574 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [resources/chromedriver.exe] ignored! It is overriden with System provided value: [D:\MynewWorkspace\AssignmentFlipkart\resources\chromedriver.exe]
+[Thread-0] 19:15:12,676 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [resources/chromedriver.exe] ignored! It is overriden with System provided value: [D:\MynewWorkspace\AssignmentFlipkart\resources\chromedriver.exe]

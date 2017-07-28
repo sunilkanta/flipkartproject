@@ -1,0 +1,177 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpenFlipkartWebsite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.flipkart.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 14464
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifyHomepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More",
+          "subLogs": [],
+          "duration": 17
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectproduct",
+      "args": [
+        "[Apple, Electronics]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=a[title='Electronics'], using=css selector}"
+          ],
+          "result": "id: 0.9453336221260482-1",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.9453336221260482-1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.9453336221260482-2]",
+          "subLogs": [],
+          "duration": 51
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.9453336221260482-2",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.9453336221260482-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "[id: 0.9453336221260482-2]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.9453336221260482-2",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.9453336221260482-2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.9453336221260482-2",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[text()='Apple']",
+            "{\"id\":\"0.9453336221260482-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 141
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open flipkart website",
+      "type": "TestStepPass",
+      "duration": 16893,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify homepage",
+      "type": "TestStepPass",
+      "duration": 10119,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Flipkart homepage Verification\nExpected: a string containing \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"\n     Actual: was \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects 'Apple' from 'Electronics' section",
+      "type": "TestStepPass",
+      "duration": 1393,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

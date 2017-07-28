@@ -1,0 +1,60 @@
+19:17:18 scenario.file.loc[Ljava.lang.String;@5e57643e
+19:17:18 loading BDD file: scenarios/suite1.bdd
+19:17:18 total test found: 1
+19:17:18 
+
+Executing scenario: SampleTest - Sample Test Scenario
+19:17:18 pkg: com.qmetry.qaf.automation.step
+19:17:18 pkg: com.assignmentflipkart
+19:17:18 Found duplicate step to load [] with [lower] prority then []
+19:17:18 Invoking Teststep: Given user open flipkart website
+19:17:36 Completed Teststep: Given user open flipkart website
+19:17:36 Invoking Teststep: Then user verify homepage
+19:17:46 Completed Teststep: Then user verify homepage
+19:17:46 Invoking Teststep: When user selects 'Apple' from 'Electronics' section with arguments: [Apple, Electronics]
+19:17:57 Failure Teststep: When user selects 'Apple' from 'Electronics' section with arguments: [Apple, Electronics]
+org.openqa.selenium.TimeoutException: Timed out after 10 seconds: Wait time out for sub catogory to be visible
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11541', ip: '192.168.60.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:478)
+	at com.assignmentflipkart.pages.Homepageflipkart.selectCatogory(Homepageflipkart.java:42)
+	at com.assignmentflipkart.StepsBackLog.selectproduct(StepsBackLog.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+19:17:57 Completed Teststep: When user selects 'Apple' from 'Electronics' section with arguments: [Apple, Electronics]
+19:17:57 Competed scenario: SampleTest with status FAILURE

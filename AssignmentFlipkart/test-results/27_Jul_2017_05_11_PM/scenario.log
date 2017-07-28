@@ -1,0 +1,10 @@
+17:11:30 scenario.file.loc[Ljava.lang.String;@3d36e4cd
+17:11:30 loading BDD file: D:\MynewWorkspace\AssignmentFlipkart\.\scenarios\addtocart.bdd
+17:11:30 total test found: 1
+17:11:31 
+
+Executing scenario: AddAppleproduct to cart from flipkart - Sample Test Scenario
+17:11:31 pkg: com.qmetry.qaf.automation.step
+17:11:31 pkg: com.assignmentflipkart
+17:11:31 Found duplicate step to load [] with [lower] prority then []
+17:11:31 Invoking Teststep: Given user open flipkart website
